@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  background-color: #9697F8;
+}
+
+.icones {
+  
+  display: flex;
+  gap: 12px;
+}

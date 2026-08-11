@@ -1,0 +1,245 @@
+.banner {
+  width: 100%;
+  height: 42.75rem;
+  object-fit: cover;
+}
+
+.info {
+  padding: 1.5rem 6.25rem;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: "Inter";
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.iconActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.iconActions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.iconActive {
+  opacity: 1 !important;
+}
+
+.metaGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.metaItem {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2rem;
+  margin-bottom: 0.375rem;
+}
+
+.metaRight {
+  text-align: right;
+  max-width: 60%;
+}
+
+.ageBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+   width: 2rem;
+  height: 2rem;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.1rem ;
+  border-radius: .1875rem;
+}
+
+.sideInfo{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+
+.descContent {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.ratingRow {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.ratingSummary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ratingBlock{
+    display: flex;
+    flex-direction: column;
+}
+.ratingStars {
+  color: #14AE5C;
+  font-size: 4.75rem;
+}
+
+.ratingNumber {
+    font-family: 'Inter';
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.reviewCount {
+  font-size: 2rem;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #000000;
+
+}
+
+.reviewButton {
+    width: 28.625rem;
+    height: 6.3125rem;
+  background: #3539EF;
+  color: #fff;
+  border: none;
+  padding: .75rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 2.25rem;
+  cursor: pointer;
+}
+
+.reviewsSection {
+  padding: 3.125rem 6.25rem;
+}
+
+.reviewsTitle {
+    font-family: 'Inter';
+  font-size: 3.125rem;
+  font-weight: 600;
+  margin-bottom: 3.4375rem;
+}
+
+.reviewCard {
+  border: 1px solid #cfe0ea;
+  border-radius: 1.25rem;
+  padding: 1rem;
+  margin-bottom: 3.4375rem;
+  background: #fff;
+}
+
+.reviewHeader {
+    padding: 2rem;
+    padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.reviewAvatar,
+.reviewAvatarFallback {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewUserLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.reviewAvatarFallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a2e45;
+  color: #fff;
+  font-size: 0.65rem;
+}
+
+.reviewUsername {
+    font-family: 'Inter';
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.reviewStars {
+  color: #14AE5C;
+  margin-left: auto;
+  font-size: 3rem;
+}
+
+.reviewText {
+    padding: 2rem;
+    font-family: 'Inter';
+  font-size: 1.5rem;
+  color: #000000;
+  line-height: 100%;
+
+}
+
+.modal{
+    padding: 4rem;
+    background: linear-gradient(180deg, #A3D7EB, #FFFFFF);
+    
+}
+
+.modalTitle {
+    font-family: 'Inter';
+    font-size: 2.5rem;
+    font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.modalTextarea {
+    font-family: 'Inter';
+  width: 100%;
+  min-height: 6rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 2px solid #000000;
+  border-radius: 0.375rem;
+  font-family: inherit;
+  resize: vertical;
+}
+::placeholder{
+    font-family: 'Inter';
+}
+
+
+.modalSubmit {
+    padding: .75rem 1.6875rem;
+    background: #1419AE;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}

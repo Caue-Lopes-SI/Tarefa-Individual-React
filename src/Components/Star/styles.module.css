@@ -1,0 +1,28 @@
+.starRating {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.starWrapper {
+  position: relative;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: #14AE5C; 
+}
+
+.halfLeft,
+.halfRight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.halfLeft {
+  left: 0;
+}
+
+.halfRight {
+  right: 0;
+}

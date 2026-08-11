@@ -1,0 +1,35 @@
+.category {
+  margin: 2rem 3.4375rem;
+}
+
+.title {
+  margin-bottom: 0.75rem;
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.categoryUnderline {
+  width: 15.4375rem;        
+  height: 0.3rem;
+  background-color: #7189A7; 
+  border-radius: .875rem;      
+  margin-bottom: 1rem;
+}
+
+.categoryCarousel{
+  padding: 3.3275rem 6.4063rem;
+}
+
+.categorySlide {
+  flex: 0 0 auto;
+  margin-right: 0.75rem;
+}
+
+.poster {
+  width: 12.5625rem;
+  height: 19.875rem;
+  object-fit: cover;
+  padding-left: 1.875rem;
+}

@@ -1,0 +1,165 @@
+.main {
+  padding: 4rem 6.25rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 3px solid #22c55e;
+  border-radius: 999px;
+  background-color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.input::placeholder {
+  color: #94a3b8;
+}
+
+.addFiltro {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    min-height: 4rem;
+  font-family: "Inter";
+  background-color: #19ae14;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 1.0625rem 1.6875rem;
+  border-radius: 999px;
+  margin-top: 2.9375rem;
+  margin-bottom: 4.375rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.pesquisa {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.pesquisa::placeholder {
+  color: #94a3b8;
+}
+
+.modal {
+  background: linear-gradient(#a3d7eb, #dcf0f7);
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.minus {
+  display: inline-block;
+  width: 1.875rem;
+  height: .3125rem;
+  background-color: #ffffff;
+  border-radius: 999px;
+}
+.modalTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.ativo,
+.inativo {
+  gap: 1.5625rem;
+
+  min-height: 4rem;
+  margin-right: 2.125rem;
+  margin-bottom: 2.125rem;
+  padding: 1.0625rem 1.6875rem;
+
+  border-radius: 999px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+.inativo {
+  background-color: transparent;
+  border: 4px solid #10840c;
+}
+
+.ativo {
+  background-color: #10840c;
+  border: 4px solid #10840c;
+  color: #ffffff;
+}
+
+.activeFilters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5625rem;
+
+  background-color: #10840c;
+  border: 4px solid #10840c;
+  color: #ffffff;
+
+  min-height: 4rem;
+  margin-right: 2.125rem;
+  margin-bottom: 2.125rem;
+  padding: 1.0625rem 1.6875rem;
+
+  border-radius: 999px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.activeFilters img {
+  width: 20px;
+  height: 20px;
+}
+
+.genreButton {
+  display: flex;
+  align-items: center;
+  gap: 1.5625rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 2.25rem;
+}
+
+.buttonDelete {
+  background-color: #71090c;
+  width: 20.75rem;
+  height: 3.9375rem;
+  border-radius: 62.4375rem;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.buttonConcluir {
+  background-color: #1419ae;
+  width: 9.625rem;
+  height: 3.9375rem;
+  border-radius: 62.4375rem;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}

@@ -1,0 +1,113 @@
+.header {
+    padding: 0px 6.25rem;
+    background-color: #A3D7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.125rem;
+}
+
+.logoIN{
+    height: 5rem;
+}
+
+.input{
+    position: relative;
+    padding: 1.125rem 1.6875rem;
+}
+
+.pesquisa{
+    width: 18.75rem;
+    height: 4.375rem;
+    color: black;
+    border-radius: 999px;
+    border: none;
+    padding: .625rem;
+    background-color: #FFFFFFA3;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 2.125rem;
+}
+.searchButton {
+  background: none;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  right: 2.5rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.searchButton img {
+  width: 2.125rem;
+  height: 2.125rem;
+}
+
+.input > img{
+    width: 2.125rem;
+    height: 2.125rem;
+    position: absolute;
+    top:50%;
+    right:2.5rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.userContainer{
+    position: relative;
+    z-index:20;
+}
+.menu a,
+.logoutButton {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu{
+    right: 0;
+    width: 13.1875rem;
+    height: 11.3125rem;
+    padding: .75rem;
+    display: flex;
+    background-color: #EFEFFE;
+    position: absolute;
+    border-radius: .75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+.menu > ul{
+    display: flex;
+    flex-direction: column;
+    gap: .875rem;
+
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.user{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.icon {
+    width: 2rem;
+}
