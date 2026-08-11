@@ -1,6 +1,6 @@
 import { api } from "../api/api";
-import type { MovieSummary } from "../types/Movie";
-import type { Review, PublicUser } from "../types/Review";
+import type { MovieSummary } from "../Types/Movie";
+import type { Review, PublicUser } from "../Types/Review";
 
 interface PaginatedResponse<T> {
   data: T[];
