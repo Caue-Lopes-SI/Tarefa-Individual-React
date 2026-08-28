@@ -2,7 +2,6 @@
 
 Aplicação web para catalogar filmes, escrever reviews e acompanhar o que você já assistiu — inspirada no Letterboxd. Desenvolvida como tarefa individual do curso de Sistemas de Informação, consumindo uma API própria.
 
-🔗 **Deploy:** [tarefa-individual-react-sigma.vercel.app](https://tarefa-individual-react-sigma.vercel.app)
 
 ## Funcionalidades
 
